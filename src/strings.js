@@ -15,7 +15,7 @@ const countCharacters = string => {
 };
 
 const firstCharacter = string => {
-  // your code here
+  string.charAt(0);
 };
 
 const firstCharacters = (string, n) => {
