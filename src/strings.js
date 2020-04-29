@@ -7,11 +7,11 @@ const uppercase = string => {
 };
 
 const lowercase = string => {
-  // your code here
+  return string.toLowerCase();
 };
 
 const countCharacters = string => {
-  // your code here
+  return string.length;
 };
 
 const firstCharacter = string => {
