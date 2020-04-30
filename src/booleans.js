@@ -71,7 +71,7 @@ const isLessThanOrEqualTo = (a, b) => {
 };
 
 const isOdd = a => {
-  if (a % 2 == 0) {
+  if (a % 2 === 0) {
     return false;
   } else {
     return true;
@@ -79,7 +79,11 @@ const isOdd = a => {
 };
 
 const isEven = a => {
-  // your code here
+  if (a % 2 === 0) {
+    return true;
+  } else {
+    return false;
+  }
 };
 
 const isSquare = a => {
