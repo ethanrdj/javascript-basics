@@ -47,7 +47,11 @@ const truthiness = a => {
 };
 
 const isEqual = (a, b) => {
-  // your code here
+  if (a===b) {
+    return true;
+  } else {
+    return false;
+  }
 };
 
 const isGreaterThan = (a, b) => {

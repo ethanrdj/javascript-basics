@@ -74,7 +74,7 @@ describe("truthiness", () => {
 });
 
 describe("isEqual", () => {
-  xit("returns whether the two values are even", () => {
+  it("returns whether the two values are even", () => {
     expect(isEqual(true, false)).toBe(false);
     expect(isEqual(true, true)).toBe(true);
     expect(isEqual("true", "true")).toBe(true);
