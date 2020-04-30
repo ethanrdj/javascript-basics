@@ -104,11 +104,20 @@ const startsWith = (char, string) => {
 };
 
 const containsVowels = string => {
-  // your code here
-};
+    string=string.toLowerCase();
+    let result=false;
+    for (let i=0; i<string.length; i++){
+      if (string[i] ==='a' || string[i] ==='e' ||string[i]==='i'||string[i]==='o'||string[i]==='u'){
+        return result=true;   }  }
+    return result;
+  }
 
 const isLowerCase = string => {
-  // your code here
+  if (string === string.toLowerCase()){
+    return true;
+  } else {
+    return false;
+  }
 };
 
 module.exports = {
