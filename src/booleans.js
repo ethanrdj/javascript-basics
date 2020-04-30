@@ -96,7 +96,11 @@ const isSquare = a => {
 };
 
 const startsWith = (char, string) => {
-  // your code here
+  if (string.startsWith(char)) {
+    return true;
+  } else {
+    return false;
+  }
 };
 
 const containsVowels = string => {
