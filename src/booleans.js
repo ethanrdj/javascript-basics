@@ -39,7 +39,11 @@ const one = (a, b) => {
 };
 
 const truthiness = a => {
-  // your code here
+  if (a) {
+    return true;
+  } else {
+    return false;
+  }
 };
 
 const isEqual = (a, b) => {
