@@ -87,7 +87,12 @@ const isEven = a => {
 };
 
 const isSquare = a => {
-  // your code here
+  const sqr = Math.sqrt(a);
+  if (sqr*sqr === a){
+    return true;
+  } else {
+    return false;
+  }
 };
 
 const startsWith = (char, string) => {
