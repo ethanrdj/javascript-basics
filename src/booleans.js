@@ -1,5 +1,10 @@
 const negate = a => {
-  // your code here
+  if (a) {
+    return false;
+  }
+  else {
+    return true;
+  }
 };
 
 const both = (a, b) => {
