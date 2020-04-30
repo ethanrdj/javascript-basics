@@ -55,11 +55,19 @@ const isEqual = (a, b) => {
 };
 
 const isGreaterThan = (a, b) => {
-  // your code here
+  if (a > b) {
+    return true;
+  } else {
+    return false;
+  }
 };
 
 const isLessThanOrEqualTo = (a, b) => {
-  // your code here
+  if (a <= b) {
+    return true;
+  } else {
+    return false;
+  }
 };
 
 const isOdd = a => {
