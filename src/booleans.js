@@ -23,7 +23,11 @@ const either = (a, b) => {
 };
 
 const none = (a, b) => {
-  // your code here
+  if (a || b) {
+    return false;
+  } else {
+    return true;
+  }
 };
 
 const one = (a, b) => {
