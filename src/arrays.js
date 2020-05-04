@@ -11,7 +11,7 @@ const csvStringToArray = string => {
 };
 
 const addToArray = (element, array) => {
-   array.push(element);
+   rray.push(element);
 };
 
 const addToArray2 = (element, array) => {
@@ -43,7 +43,7 @@ const removeNthElement2 = (index, array) => {
   };
 
 const elementsStartingWithAVowel = strings => {
-  return strings.filter(str => /^[aeiou]/i.test(str));
+  return strings.filter(str => /^[aeiou]/gi.test(str));
 };
 
 const removeSpaces = string => {
